@@ -2,7 +2,7 @@
 
 ### Intructions to run:
 1. Navigate to the project folder in the terminal.
-2. Run 
+2. Run:
     
     'python server.py'
         find . -iname '*.conf'
