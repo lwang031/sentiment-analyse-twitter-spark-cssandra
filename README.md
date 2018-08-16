@@ -6,7 +6,6 @@
 
 Using tweepy library in Python to interface with Twitter API an streaming. Define and collect positive tweets with positive emojis. Define and collect negative tweets with negative emojis. The emojis are also part of input terms for twitter stream. Only English tweets will be collelcted. Totally 400 chunk files with each about 12 MB saved in Json format. Totally cost 70 hours, 10 hours for positive tweets and 60 hours for negative tweets, whcih suggesting that people are more likely to use positive emojis.
 
-![run command](https://user-images.githubusercontent.com/5117029/44167566-8ca89180-a09c-11e8-9b67-4e6418c83926.PNG)
 
 ## Phase II: Sentiment Analysis
 
@@ -20,6 +19,7 @@ Using tweepy library in Python to interface with Twitter API an streaming. Defin
 4. Remove stop words with `NLTK`.
 5. Remove the emojis used as search terms. Since we want to analyze the text only. 
 6. Tag each word and leave only adjectives and nouns. This can reduce features.
+![run command](https://user-images.githubusercontent.com/5117029/44167566-8ca89180-a09c-11e8-9b67-4e6418c83926.PNG)
 
 ![feature word](https://user-images.githubusercontent.com/5117029/44167564-8c0ffb00-a09c-11e8-8cad-3e4acfa33428.PNG)
 
